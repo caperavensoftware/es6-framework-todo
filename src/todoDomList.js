@@ -43,9 +43,5 @@ export default class TodoDomList {
                this.add(todoItems);
            }
         });
-    }
-    
-    changeClicked() {
-        console.log(this);
-    }
+    }    
 }
