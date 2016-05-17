@@ -6,6 +6,39 @@
         <link rel="stylesheet" type="text/css" href="styles/default/style.css">
     </head>
     <body>        
+        <h1>Todo - Demo</h1>
+        
+        <div>
+            <div id="groupTodo">
+                <label for="edtTodo">What to do</label>
+                <input type="text" id="edtTodo"></input>
+                <span id="spanTodoMessage">* required</span>
+           </div>
+           
+           <div id="groupDate">
+               <label for="edtDate">When to do it</label>
+               <input type="date" id="edtDate"></input>
+                <span id="spanDateMessage">* required</span>
+           </div>
+           
+           <div class="toolbar">
+               <button id="btnAdd">Add</button>
+               <button id="btnDelete">Delete</button>
+               <button id="btnDone">Done</button>
+           </div>
+
+           <hr />
+           
+           <div>
+               <label for="edtFilter">Filter</label>
+               <input type="text" id="edtFilter"></input>              
+           </div>
+           
+        </div>
+        
+        <ul id="todoList">
+        </ul>
+        
         <script src="./jspm_packages/system.js"></script>
         <script src="./config.js"></script>
 

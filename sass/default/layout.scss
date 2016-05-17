@@ -1,3 +1,46 @@
 div {
-    padding-left: 60px;
+    padding-left: 10px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+.error {
+    color: red;
+}
+
+.toolbar {
+    margin-top: 10px;
+}
+
+li {
+    #spanTodo {
+        width: 150px;
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    #spanDate {
+        width: 100px;
+        display: inline-block;
+    }
+}
+
+.done {
+    opacity: 0.5;
+    
+    span {
+        text-decoration: line-through;
+    }
+}
+
+button {
+    width: 100px;
+    height: 24px;
 }
