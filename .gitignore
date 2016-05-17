@@ -1,0 +1,8 @@
+node_modules
+jspm_packages
+.idea
+.DS_STORE
+coverage
+styles
+app
+publish
