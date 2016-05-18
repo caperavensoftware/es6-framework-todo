@@ -103,7 +103,12 @@ class Application {
         this.getSelectedItems(todoList).then((selectedListItems) => {
             window.requestAnimationFrame(() => {
                 for(let listItem of selectedListItems) {
+                    
                     listItem.className = 'done';
+                    if (this.todoDom.domMap.has(listItem)){
+                        let todoItem = this.todoDom.domMap.get(listItem); 
+                        todoItem.isDone = true;                        
+                    }
                 }
             });                    
         });        

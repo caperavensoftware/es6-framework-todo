@@ -6,6 +6,8 @@ export default class TodoDomList {
     
     add(todoItem) {
         let element = document.createElement('li');
+        element.className = todoItem.isDone ? 'done' : '';
+        
         element.innerHTML =
         `
             <input type="checkbox" id="chbSelection"></input>
